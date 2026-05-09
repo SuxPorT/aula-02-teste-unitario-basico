@@ -32,4 +32,10 @@ describe('Testes de Conversão de Temperatura', () => {
       expect(fahrenheitParaKelvin(32)).toBe(273.15);
     });
   });
+
+  describe('Teste intencionalmente falho', () => {
+    test('Celsius (100) -> Fahrenheit (212) - teste falho', () => {
+      expect(celsiusParaFahrenheit(100)).toBe(211);
+    });
+  });
 });

@@ -25,8 +25,10 @@ describe('Testes das 4 Operações Matemáticas', () => {
   test('Divisão: deve retornar mensagem de erro ao dividir por zero', () => {
     expect(dividir(10, 0)).toBe('Erro: Divisão por zero');
   });
+});
 
-  test('Soma errada: deve retornar falha de teste para 10 + 5', () => {
-    expect(somar(10, 5)).not.toBe(25);
+describe('Teste intencionalmente falho de calculadora', () => {
+  test('Deve falhar ao somar 10 + 5 e retornar 20', () => {
+    expect(somar(10, 5)).toBe(20);
   });
 });
