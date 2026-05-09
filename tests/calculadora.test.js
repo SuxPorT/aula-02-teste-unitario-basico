@@ -27,8 +27,8 @@ describe('Testes das 4 Operações Matemáticas', () => {
   });
 });
 
-// describe('Teste intencionalmente falho de calculadora', () => {
-//   test('Deve falhar ao somar 10 + 5 e retornar 20', () => {
-//     expect(somar(10, 5)).toBe(20);
-//   });
-// });
+describe('Teste intencionalmente falho de calculadora', () => {
+  test('Deve falhar ao somar 10 + 5 e retornar 20', () => {
+    expect(somar(10, 5)).toBe(20);
+  });
+});
