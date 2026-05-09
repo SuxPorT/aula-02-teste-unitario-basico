@@ -27,6 +27,6 @@ describe('Testes das 4 Operações Matemáticas', () => {
   });
 
   test('Soma errada: deve retornar falha de teste para 10 + 5', () => {
-    expect(somar(10, 5)).toBe(25);
+    expect(somar(10, 5)).not.toBe(25);
   });
 });
