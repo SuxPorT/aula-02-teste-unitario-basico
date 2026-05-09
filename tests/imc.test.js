@@ -6,8 +6,8 @@ describe('Testes de IMC', () => {
   });
 });
 
-describe('Teste intencionalmente falho de IMC', () => {
-  test('Deve falhar ao calcular o IMC (70kg, 1.75m)', () => {
-    expect(calcularIMC(70, 1.75)).toBe(25);
-  });
-});
+// describe('Teste intencionalmente falho de IMC', () => {
+//   test('Deve falhar ao calcular o IMC (70kg, 1.75m)', () => {
+//     expect(calcularIMC(70, 1.75)).toBe(25);
+//   });
+// });
